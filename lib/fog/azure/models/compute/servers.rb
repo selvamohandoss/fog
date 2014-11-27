@@ -20,7 +20,8 @@ module Fog
           load(servers)
         end
 
-        def get(identity, cloud_service_name)
+        def get(identity, cloud_service_name=nil)
+          cloud_service_name ||= identity
           all.find { |f| f.name == identity && f.cloud_service_name == cloud_service_name }
         rescue Fog::Errors::NotFound
           nil

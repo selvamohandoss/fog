@@ -63,7 +63,7 @@ Gem::Specification.new do |s|
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
   s.add_development_dependency('minitest')
-  s.add_development_dependency('azure', '~>0.6')
+  s.add_development_dependency('azure', '>=0.6.5')
   s.add_development_dependency('rake')
   s.add_development_dependency('rbvmomi')
   s.add_development_dependency('yard')
