@@ -20,6 +20,7 @@ module Fog
       request :shutdown_server
       request :start_server
       request :list_images
+      request :list_locations
 
       model_path "fog/azure/models/compute"
       model :server
@@ -28,6 +29,8 @@ module Fog
       collection :storage_accounts
       model :image
       collection :images
+      model :location
+      collection :locations
 
       class Mock
         def initialize(options={})

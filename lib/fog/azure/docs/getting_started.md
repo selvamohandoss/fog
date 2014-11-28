@@ -127,9 +127,9 @@ Get a single storage account record:
 
 ```ruby
 storage_acc = azure.storage_accounts.get('storageaccountname')
-server.name
-server.location
-server.endpoints
+storage_acc.name
+storage_acc.location
+storage_acc.endpoints
 ```
 
 Destroying the storage account:
