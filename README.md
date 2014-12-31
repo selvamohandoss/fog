@@ -1,3 +1,30 @@
+
+[fog](http://geemus.s3.amazonaws.com/fog.png)
+
+fog is the Ruby cloud services library, top to bottom:
+
+* Collections provide a simplified interface, making clouds easier to work with and switch between.
+* Requests allow power users to get the most out of the features of each individual cloud.
+* Mocks make testing and integrating a breeze.
+
+[![Build Status](https://secure.travis-ci.org/fog/fog.png?branch=master)](http://travis-ci.org/fog/fog)
+[![Dependency Status](https://gemnasium.com/fog/fog.png)](https://gemnasium.com/fog/fog)
+[![Code Climate](https://codeclimate.com/github/fog/fog.png)](https://codeclimate.com/github/fog/fog)
+[![Gem Version](https://fury-badge.herokuapp.com/rb/fog.png)](http://badge.fury.io/rb/fog)
+[![Gittip](http://img.shields.io/gittip/geemus.png)](https://www.gittip.com/geemus/)
+
+## Getting Started
+
+The easiest way to learn fog is to install the gem and use the interactive console.
+Here is an example of wading through server creation for Amazon Elastic Compute Cloud:
+
+```
+$ sudo gem install fog
+[...]
+
+
+#TEST CLA
+
 ![fog](http://geemus.s3.amazonaws.com/fog.png)
 
 fog is the Ruby cloud services library, top to bottom:
